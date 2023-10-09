@@ -8,7 +8,7 @@ async function fetchCSVData(url) {
 }
 
 // 处理 CSV 数据
-fetchCSVData('/datasets/simple.csv').then(function (csvData) {
+fetchCSVData('https://github.com/DeruL0/test1.github.io/blob/master/datasets/simple.csv').then(function (csvData) {
     // 将 CSV 数据解析为数组
     var lines = csvData.split('\n');
     var timeData = [];
