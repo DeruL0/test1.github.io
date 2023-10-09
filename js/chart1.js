@@ -1,5 +1,5 @@
 async function fetchData() {
-    const response = await fetch('datasets/pie3.csv');
+    const response = await fetch('https://github.com/DeruL0/test1.github.io/blob/masterdatasets/pie3.csv');
     const dataBuffer = await response.arrayBuffer();
     const decoder = new TextDecoder("GBK");
     const csvData = decoder.decode(dataBuffer);
