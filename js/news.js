@@ -4,7 +4,7 @@ let currentNewsIndex = 0;
 let newsDisplayed = 0;
 
 function fetchNews() {
-    fetch('datasets/weibo.csv',{ headers: { 'Content-Type': 'text/csv;charset=utf-8' } })
+    fetch('https://github.com/DeruL0/test1.github.io/blob/master/datasets/weibo.csv',{ headers: { 'Content-Type': 'text/csv;charset=utf-8' } })
         .then(response => response.arrayBuffer())
         .then(buffer => {
             const decoder = new TextDecoder('utf-8');
