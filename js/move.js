@@ -8,7 +8,7 @@ var label0Counts = []; // 情感标签值为0的数量
 var label1Counts = []; // 情感标签值为1的数量
 
      // 使用fetch API加载本地CSV文件
-     fetch('/datasets/emotion.csv')
+     fetch('https://github.com/DeruL0/test1.github.io/blob/master/datasets/emotion.csv')
          .then(response => response.text())
          .then(data => {
              // 解析CSV数据
